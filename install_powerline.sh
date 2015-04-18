@@ -17,7 +17,7 @@ function check_requirement() {
 }
 
 function install_powerline() {
-    [ ! -f ~/.local/bin/powerline ] && pip install --user git+git://github.com/Lokaltog/powerline
+    [ ! -f ~/.local/bin/powerline ] && pip install powerline-status
 }
 
 install_powerline
